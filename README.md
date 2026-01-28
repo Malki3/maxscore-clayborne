@@ -1,13 +1,13 @@
 # README for Maxscore Validation Script
 
 ## Author Information
-- **Name:** [Your Full Name]
-- **Course:** [Course Number and Name]
+- **Name:** Malcolm Clayborne
+- **Course:** CPSC-298-01
 - **Assignment:** Maxscore Assignment
-- **Date:** [Date of Completion]
+- **Date:** 01/27/25
 
 ## Program Description
-[Write 2-3 sentences in your own words describing what this script does and its purpose. Explain the problem it solves and how it works at a high level.]
+This script prompts the user to enter five numerical scores and determines the highest score entered. It stores the scores in an array and compares each value to find the maximum. The script then displays the highest score and shows how much each score differs from that maximum.
 
 ## Usage
 To run the script interactively:
@@ -21,10 +21,7 @@ To test with the provided input file:
 ```
 
 ## How the Script Works
-[Explain in 3-5 sentences how your script works. Include information about:]
-- How you read and store numbers in an array
-- How you loop through the array to find the maximum value
-- How you calculate and display the difference between each score and the highest
+The script first creates an empty array and asks the user to input five scores, storing each value in the array. It initializes the maximum score using the first value and then uses a for loop to compare each subsequent score to the current maximum, updating it when a higher value is found. Finally, another loop calculates and prints the difference between each score and the highest score.
 
 ## Testing Results
 [Describe your testing process and results. Include:]
